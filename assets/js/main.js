@@ -23,7 +23,7 @@ function enhanceLeadForms(){
         // fire-and-forget SMS (optional)
         fetch('/api/lead-sms', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data)}).catch(()=>{});
         if(r.ok){
-          form.innerHTML = '<p class="lead">Thanks! We\\'ll text or call you shortly to confirm details and schedule a site visit.</p>';
+          form.innerHTML = '<p class="lead">Thanks! We\'ll text or call you shortly to confirm details and schedule a site visit.</p>';
         }else{
           form.insertAdjacentHTML('beforeend','<p class="tiny" style="color:#fca5a5">There was a problem submitting. Please call (816) 815‑1659.</p>');
         }
