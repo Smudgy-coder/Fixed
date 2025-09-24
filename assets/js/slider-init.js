@@ -1,0 +1,1 @@
+import { initSliders } from '/assets/js/slider.js'; initSliders();
