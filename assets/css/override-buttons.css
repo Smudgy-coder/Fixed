@@ -1,0 +1,11 @@
+
+/* FINAL override: force black text on yellow buttons across the site */
+a.btn, .btn { color: #000 !important; }
+a.btn.btn-primary, .btn.btn-primary { color: #000 !important; }
+.cta-row .btn, .cta-row .btn.btn-primary { color: #000 !important; }
+.sticky-cta .btn, .sticky-cta .btn.btn-primary { color: #000 !important; }
+a.btn:visited, a.btn:hover, a.btn:focus,
+.btn:visited, .btn:hover, .btn:focus,
+.btn.btn-primary:visited, .btn.btn-primary:hover, .btn.btn-primary:focus {
+  color: #000 !important;
+}

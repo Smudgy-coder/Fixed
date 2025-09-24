@@ -1,0 +1,1 @@
+export function initHoverFX(){function set(e){const r=e.currentTarget.getBoundingClientRect();const x=((e.clientX-r.left)/r.width*100).toFixed(1);e.currentTarget.style.setProperty('--mx',x+'%')}document.querySelectorAll('.btn,.card,.dropdown a').forEach(el=>el.addEventListener('mousemove',set,{passive:true}))}
