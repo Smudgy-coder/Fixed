@@ -1,0 +1,10 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: blob:; \1 https://static.cloudflareinsights.comnges.cloudflare.com; style-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors 'none'; frame-src https://calendly.com; connect-src https://api.twilio.com https://www.google.com https://maps.google.com
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
